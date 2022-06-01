@@ -1,0 +1,58 @@
+.awesome__line {
+    width: 64px;
+    height: 2px;
+    background-color:#E72424;
+    margin: 0 auto 34px;
+}
+.awesome__text {
+    width: 363px;
+    margin: 0 auto 68px;
+}
+.awesome__text p {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 19.07px;
+    color:#86878B;
+    text-align: center;
+}
+.awesome-wrap {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 116px;   
+}
+.awesome-wrap-card {
+    width: 350px;
+    height: 278px;
+    margin-left: 30px;
+    
+}
+.awesome-wrap-card__title {
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 27.24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.awesome-wrap-card__img {
+    width: 70px;
+    height:70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 30px;
+}
+
+.awesome-wrap-card__discription {
+    width: 350px;
+    height: 60px;
+}
+.awesome-wrap-card__discription p {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: #000000;
+    text-align: center;
+}
+
