@@ -1,20 +1,4 @@
-.awesome__line {
-    width: 64px;
-    height: 2px;
-    background-color:#E72424;
-    margin: 0 auto 34px;
-}
-.awesome__text {
-    width: 363px;
-    margin: 0 auto 68px;
-}
-.awesome__text p {
-    font-weight: 400px;
-    font-size: 14px;
-    line-height: 19.07px;
-    color:#86878B;
-    text-align: center;
-}
+
 .awesome-wrap {
     display: flex;
     justify-content:space-between;
