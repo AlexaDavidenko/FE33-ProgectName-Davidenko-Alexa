@@ -31,7 +31,6 @@
   color: rgba(33, 33, 33, 1);
 }
 
-
 .title::after {
    content: " ";
    width: 64px;
@@ -46,8 +45,7 @@
 }
 
 .title--color::after{
-    background-color: rgba(255, 255, 255, 1);
-    
+    background-color: rgba(255, 255, 255, 1);  
 }
 
 .section__text {
@@ -62,11 +60,11 @@
     text-align: center;
 }
 
-.section__text--width {
+.section__text--size {
    margin-bottom: 57px;
 }
 
-.section__text--width p {
+.section__text--size p {
     font-weight: 300;
     font-size: 16px;
     line-height: 18px;
