@@ -3,13 +3,13 @@
 }
 .customers-wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 0 -15px;
 }
 .customers-wrap-item {
     width: 298px;
-    margin: 0 30px;
+    margin: 0 15px;
 }
 
 .customers-wrap-item__text {
@@ -32,7 +32,7 @@
     border-width: 14px 14px 0px 14px;
     border-color: rgba(226, 226, 226, 1) transparent transparent transparent;
     left: 30px;
-    bottom: -14px;
+    top: 100%;
 
     position: absolute;
 }
