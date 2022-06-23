@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <section class="header">
+    <header class="header">
         <div class="container">
             <div class="header-wrap">   
                 <span class="header-wrap-logo">
@@ -35,7 +35,7 @@
                 </nav>
             </div>
         </div>
-    </section>   
+    </header>   
     <section class="modern section--mask">
        <div class="container">
            <div class="modern-wrap">
@@ -49,25 +49,24 @@
                         <a href="image/background-1 1.png" download>Download</a>
                     </div>
                 </div>
-                <div class="form">
-                    <form class="login" action="mail.php" name="form" method="post">
-                       <h3 class="form__title">Try Your <span>FREE</span> Trial Today</h3>
-                       <div class="login-wrap">
-                            <div class="form-item">
-                                <input  type="text" placeholder="Name" required >
-                            </div> 
-                            <div class="form-item">
-                                <input  type="text" placeholder="Email" required >
-                            </div>
-                            <div class="form-item">
-                                <input  type="text" placeholder="Password" required >
-                            </div>
+                <form class="form" action="mail.php" name="form" method="post">
+                    <div class="form-content">
+                        <h3 class="form__title">Try Your <span>FREE</span> Trial Today</h3>
+                        <div class="form-item">
+                            <label for="name">Name</label>
+                            <input  type="text" id="name" required >
+                        </div> 
+                        <div class="form-item">
+                            <label for="email">Email</label>
+                            <input  type="text" id="email" required >
                         </div>
-                        <div class="button">
-                            <button  name="button">Get Started</button>
+                        <div class="form-item">
+                            <label for="password">Password</label>
+                            <input  type="text" id="password" required >
                         </div>
-                    </form>
-                </div>
+                    </div>
+                    <button class="button" name="button">Get Started</button>
+                </form>
            </div>
        </div> 
     </section>
@@ -75,7 +74,7 @@
         <div class="container">
             <div class="social-wrap">   
                 <div class="social-wrap-left">
-                    <h3 class="social-tittle">Social Media</h3>
+                    <h2 class="social-tittle">Social Media</h2>
                     <div class="social-wrap-text"> 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Aenean euismod bibendum laoreet.</p>
@@ -106,6 +105,34 @@
                         </li>
                     </ul>
                 </nav>
+            </div>
+        </div>
+    </section>
+    <section class="tabs">
+        <div class="container">
+            <div class="tabs-wrap">
+                <div class="tabs-wrap-main">
+                    <button type="button" class="tabs-item active" >tab 1</button>
+                    <button type="button" class="tabs-item">tab 1</button>
+                    <button type="button" class="tabs-item">tab 1</button>
+                </div>
+                <div class="tabs-wrap-content">
+                    <h2 class="tabs-title">Tabs with soft transitioning effect.</h2>
+                    <div class="tabs-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                            penatibus et magnis dis parturient montes.<p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                            bibendum laoreet.</p>
+                    </div>
+                    <div class="section__btn tabs__btn">
+                        <a href="#" download>Download</a>
+                    </div>
+                </div>
+                <div class="tabs-img">
+                    <img src="image/image1.png" alt="city">
+                </div>
             </div>
         </div>
     </section>
@@ -278,31 +305,29 @@
             <div class="section__text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div class="contact-wrap">
-                <div class="wrap-form">
-                    <form class="form-contact" action="mail.php" name="form" method="post">
-                        <div class="form-contact-wrap">
-                            <div class="login-wrap-item">
-                                <div class="form-item form-item--size">
-                                    <input  type="text" placeholder="Name" required >
-                                </div> 
-                                <div class="form-item form-item--size">
-                                    <input  type="text" placeholder="Email" required >
-                                </div>
-                                <div class="form-item form-item--size">
-                                    <input  type="text" placeholder="Password" required >
-                                </div>
-                            </div>
-                            <div class="form-item form-item--size">
-                                <textarea  placeholder="Message" required ></textarea>
-                            </div>
+            <form class="form form-contact" action="mail.php" name="form" method="post">
+                <div class="form-content-wrap">
+                    <div class="form-content-left"> 
+                        <div class="form-item form-item--size">
+                            <label for="name">Name</label>
+                            <input  type="text" id="name" required >
+                        </div> 
+                        <div class="form-item form-item--size">
+                            <label for="email">Email</label>
+                            <input  type="text" id="email" required >
                         </div>
-                        <div class="button button-align">
-                            <button  name="button">Get Started</button>
+                        <div class="form-item form-item--size">
+                            <label for="password">Password</label>
+                            <input  type="text" id="password" required >
                         </div>
-                    </form>
+                    </div>
+                    <div class="form-item form-content-right">
+                        <label for="message">Message</label>
+                        <textarea id="message" required ></textarea>
+                    </div>
                 </div>
-            </div>
+                <button class="button button--contact" name="button">Send Message</button>
+            </form>
         </div>
     </section>
     <section class="footer">

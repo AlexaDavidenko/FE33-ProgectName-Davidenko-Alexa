@@ -1,41 +1,41 @@
 .contact {
-    padding: 80px 0;
+   padding: 80px 0;
+   
 }
 
-.contact-wrap {
-    margin: 0 -15px;
-}
 .form-contact {
-    margin: 0 15px;
+    margin: 0 -15px;
+    width: auto;
 }
-.form-contact-wrap {
+
+.form-content-wrap {
     display: flex;
     justify-content: space-between;
     margin-bottom: 68px;
-    align-items: stretch;
+    
+}
+.form-content-left {
+    margin: 0 15px;
+    width: 40%;
+}
+.form-content-right {
+    margin: 0 15px;
+    width:40%;
 }
 .form-item--size {
-    width: 478px;
-    margin-bottom: 35px;
-}
-.form-item--size:last-child {
-    margin-bottom: 0;
+    margin-bottom: 31px;
+    padding-bottom: 25px;
 }
 
-.form-item--size textarea {
-    height: 100%;
-    border: none;
-    padding: 16px 0;
+.form-content-right textarea {
+    height: 208px; 
+    border: none; 
     resize: none;
-    
 }
-.button-align {
-    background-color:  #FFFFFF;
-    text-align: center;
-}
-.button-align button{
-   width: auto;
-   padding: 11px 32px; 
-   cursor: pointer;
-    
+.button--contact  {
+    border-radius: 0;
+    width: auto;
+    margin: 0 auto;
+    padding: 11px 32px;
+
 }

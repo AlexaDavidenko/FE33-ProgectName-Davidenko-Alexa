@@ -25,7 +25,7 @@
 }
 .modern-wrap-card {
     margin: 0 15px;
-    max-width: 544px;
+    width: 544px;
 }
 
 .title--position  {
@@ -48,50 +48,55 @@
 }
 .form {
     width: 370px;
-    height: 370px;
     background-color:  #FFFFFF;
     border-radius: 8px;
     margin: 0 15px;
-    overflow: hidden;
 }
-.login {
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between;
-    height: inherit;
+.form-content {
+    padding: 27px 59px 61px 59px; 
 }
 
 .form__title {
     font-weight: 700;
     font-size: 20px;
-    line-height: 56px;
     text-align: center;
     color: #333333;
-    
+    margin-bottom: 44px;
 }
 .form__title span {
     color: #EC7979;
 }
 .form-item {
-    width: 252px;
-    border-bottom: 2px solid #BDBDBD;
-    padding: 16px 0;
-    margin: 0 auto;
-
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 16px; 
+    padding-bottom: 12px;
+}
+.form-item:last-child {
+    margin-bottom: 0;
 }
 .form-item input {
-    width: 100%;
     border: none;
 }
-
+.form-item input:focus {
+    outline: none;
+}
+.form-item label {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
 .button {
+    display: block;
+    width: 100%;
     background-color:#EC7979;
     text-align: center;
-}
-.button button{
-    width: 100%;
     border: none;
-    background-color:#EC7979;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
     font-size: 15px;
