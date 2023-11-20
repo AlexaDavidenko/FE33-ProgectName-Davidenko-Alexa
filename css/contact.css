@@ -1,0 +1,41 @@
+.contact {
+   padding: 80px 0;
+   
+}
+
+.form-contact {
+    margin: 0 -15px;
+    width: auto;
+}
+
+.form-content-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 68px;
+    
+}
+.form-content-left {
+    margin: 0 15px;
+    width: 40%;
+}
+.form-content-right {
+    margin: 0 15px;
+    width:40%;
+}
+.form-item--size {
+    margin-bottom: 31px;
+    padding-bottom: 25px;
+}
+
+.form-content-right textarea {
+    height: 208px; 
+    border: none; 
+    resize: none;
+}
+.button--contact  {
+    border-radius: 0;
+    width: auto;
+    margin: 0 auto;
+    padding: 11px 32px;
+
+}
